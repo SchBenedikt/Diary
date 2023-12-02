@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #008080;
+}
+
+/* ... (Vorheriger CSS-Code) */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.sidebar-left {
+    width: 90%;
+    border-radius: 10px; 
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    width: 90%;
+    max-width: 7000px;
+    margin: auto; /* Zentriere das Formular horizontal */
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.format-buttons {
+    margin-bottom: 10px;
+}
+
+.format-buttons button {
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.spacer {
+    height: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    background-color: #008080;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type="file"]:hover {
+    background-color: #005454;
+}
+
+input[type="submit"] {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #005454;
+}
+
+#message {
+    margin-top: 30px;
+    color: #033636;
+}
+
+/* ... (Vorheriger CSS-Code) */
+
+.container .entry {
+    background-color: #0a5c802c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative; /* Hinzugefügt, um die Positionierung der Like-Schaltfläche zu ermöglichen */
+}
+
+/* ... (Vorheriger CSS-Code) */
+
+.like-button {
+    background-color: #fff;
+    color: #008080;
+    padding: 5px 10px;
+    border: 1px solid #008080;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.like-button:hover {
+    background-color: #008080;
+    color: #fff;
+}
+
+.like-button.liked {
+    background-color: #008080;
+    color: #fff;
+}
+
+.likes-count {
+    margin-left: 5px;
+    color: #666;
+}
+
+/* ... (Weitere Stile oder Anpassungen) */
+/* ... (Vorheriger CSS-Code) */
+
+.format-buttons button {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.format-buttons button:hover {
+    background-color: #005454;
+}
+
+/* ... (Weitere Stile oder Anpassungen) */
+#entryForm {
+    width: 90%;
+    background-color: #fff; /* Hintergrundfarbe für den entryForm-Container */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Runde die Ecken ab */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Füge einen Schatten hinzu */
+
+}
+.comment-container {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
